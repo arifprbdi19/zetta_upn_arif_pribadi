@@ -142,7 +142,7 @@ Read books data that has been sent from [Book Purchasing](#book-purchasing) endp
 `http://localhost:3000/bookPurchasing/books`
 
 ## Insert Into BookShelf Collection [POST]
-Insert data into bookShelf collection, to make it easier use this [query](https://raw.githubusercontent.com/arifprbdi19/zetta_upn_arif_pribadi/mongodb_day_3/query), JSON format.
+Insert data into bookShelf collection, to make it easier use this [query](https://raw.githubusercontent.com/arifprbdi19/zetta_upn_arif_pribadi//mongodb_day_3/query), JSON format.
 `http://localhost:3000/bookPurchasing/bookShelf/`
 Example Body:
 ```
@@ -188,8 +188,12 @@ Filter bookShelf collection based on title and genre
 Update writer of book based on genre of book
 `http://localhost:3000/bookPurchasing/bookShelf/filter/?genreIdentifier&writer`
 
-## Get List Genre of BookShelf Collection [GET]
+## Get List Genre Inside BookShelf Collection [GET]
 Read genre inside bookshelf collection
 `http://localhost:3000/bookPurchasing/bookShelf/listGenre/`
+
+## Get List Genre Each Book Inside BookShelf Collection [GET]
+Get title and genre field each book inside bookshelf collection and get totalGenre each book
+`http://localhost:3000/bookPurchasing/bookShelf/splitGenreEachBook/`
 
 **_Note : All data is for example only_**
