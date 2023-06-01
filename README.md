@@ -3,7 +3,7 @@ This repo is for educational use, learning about Node.js
 
 # 2. Step by Step
 Guide step to use this repo:
-1. Clone repo `git clone https://github.com/waffiqaziz/zetta_upn_waffiq_aziz/tree/javascript_day_6.git`
+1. Clone repo `https://github.com/arifprbdi19/zetta_upn_arif_pribadi.git`
 2. Run `npm install express cors body-parser`
 3. Run `node main.js`
 4. Test using Postman or any platform for building and use json body for request.
@@ -83,7 +83,9 @@ Example Response:
                 "remainingBalance": 0
             }
         ]
-    }
+    },
+    "setBooks": [...],
+    "mapBooks": [...]
 }
 ```
 With the following parameters:
@@ -111,6 +113,8 @@ With the following parameters:
 | `additional`              | integer | Additional price each credit payment.              | 
 | `totalCreditMustPay`      | integer | Total credit payments for the month.               | 
 | `remainingBalance`        | integer | Remaining price to be paid.                        | 
+| `setBooks`                | array   | Array of set.                                      | 
+| `mapBooks`                | array   | Array of map.                                      | 
 
 ## Read File with Await
 Read file endpoint with await
